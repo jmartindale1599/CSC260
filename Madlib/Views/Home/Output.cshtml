@@ -1,0 +1,101 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+    if (!string.IsNullOrEmpty(ViewBag.No1) && !string.IsNullOrEmpty(ViewBag.Ve) && !string.IsNullOrEmpty(ViewBag.No2) && !string.IsNullOrEmpty(ViewBag.Ad) && !string.IsNullOrEmpty(ViewBag.No3)){
+
+            <div class="row justify-content-md-center">
+    
+            <div class="col col-lg-2">
+        
+                The
+        
+            </div>
+
+            <div class="col col-lg-2" style="background-color:goldenrod" >
+        
+                @ViewBag.No1
+        
+            </div>
+
+            <div class="col col-lg-2" style="background-color:goldenrod">
+        
+                 @ViewBag.Ve
+        
+            </div>
+
+            <div class="col col-lg-2">
+
+                to
+
+            </div>
+
+            <div class="col col-lg-2">
+
+                the
+
+            </div>
+
+            <div class="col col-lg-2" style="background-color:goldenrod">
+
+                @ViewBag.No2
+
+            </div>
+
+            <div class="col col-lg-2">
+
+                to 
+
+            </div>
+
+            <div class="col col-lg-2">
+
+                bury
+
+            </div>
+
+            <div class="col col-lg-2">
+
+                its
+
+            </div>
+
+            <div class="col col-lg-2" style="background-color:goldenrod">
+
+                @ViewBag.Ad
+
+            </div>
+
+            <div class="col col-lg-2" style="background-color:goldenrod">
+
+                @ViewBag.No3.
+
+            </div>
+
+
+            </div>
+
+    }else{
+    
+    <div class="makered">
+
+        <img src="/image/Grrr.jfif"/>
+
+        <h4> didn't fill it all the way in did you? </h4>
+
+    </div>
+
+}
+
+    <h4> 
+        
+        <form asp-controller="Home" asp-action="Input" method="post">
+
+            <button type="submit" style="text-align:center"> Another one? </button>
+
+        </form>
+
+    </h4>
+
+}

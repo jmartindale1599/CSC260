@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.error-messages{
+
+ color:darkseagreen;
+
+ font-weight:bolder;
+
+}
+
+h3{
+
+    color:darkcyan;
+
+}
+
+body {
+  margin-bottom: 60px;
+}

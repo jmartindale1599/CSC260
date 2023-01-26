@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Movie>
+
+	<h4> @TempData["sucess"] </h4>
+
+@if(Model == null){
+	
+	<h2> no movies provided </h2>
+
+}else{
+
+	foreach(Movie movie in Model){
+		
+		@*<h3> @movie.ToString() </h3>*@
+
+		<partial name="_MoviePartialView.cshtml" for="@movie"/>
+
+	}
+
+}
+

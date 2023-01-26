@@ -1,0 +1,27 @@
+﻿@model Movie
+
+@if (Model == null){
+
+	<h2> No movie Found </h2>
+
+}else{
+
+	<h3> @Model.Title </h3>
+
+	<h3> @Model.Year </h3>
+
+	<h3> @Model.Rating </h3>
+
+	<a asp-controller="Movie" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary mx-2">
+
+		<i class="bi bi-peace-fill"></i>
+
+	</a>
+
+	<a asp-controller="Movie" asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger mx-2">
+
+		<i class="bi bi-fire"></i>
+
+	</a>
+
+}

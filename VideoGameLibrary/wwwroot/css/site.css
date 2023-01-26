@@ -1,0 +1,47 @@
+
+html {
+
+  font-size: 14px;
+
+}
+
+@media (min-width: 768px) {
+
+  html {
+    
+      font-size: 16px;
+  
+  }
+
+}
+
+.text-Anger {
+
+    color: crimson !important;
+
+}
+
+.good-Bak{
+
+    background-color: darkcyan !important;
+
+}
+
+html {
+
+  position: relative;
+  
+  min-height: 100%;
+
+}
+
+body {
+
+  margin-bottom: 60px;
+
+  color:indigo;
+  
+  background-color: mediumaquamarine;
+
+
+}

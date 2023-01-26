@@ -1,0 +1,59 @@
+﻿@model Movie
+
+@*p=padding
+
+pb=paddingBottom
+
+m= margin
+
+mt= margin top*@
+
+<form asp-controller="Movie" asp-action="Create" method="post">
+
+	<div asp-validation-summary="All" class="error-messages"></div>
+
+	<div class="border p-3 mt-4">
+
+		<h2 class="text-danger"> Create Movie </h2>
+
+		<hr />
+
+	</div>
+
+	<div class="mb-3">
+
+		<label asp-for="Title"></label> <!-- supposedly makes inputs easier -->
+
+		<input asp-for="Title" class="form-control"/>
+
+		<span asp-validation-for="Title" class="error-messages"></span>
+
+	</div>
+
+	<div class="mb-3">
+
+		<label asp-for="Year"></label>
+
+		<input asp-for="Year" class="form-control" />
+
+		<span asp-validation-for="Year" class="error-messages"></span>
+
+	</div>
+
+	<div class="mb-3">
+
+		<label asp-for="Rating"></label>
+
+		<input asp-for="Rating" class="form-control" />
+
+		<span asp-validation-for="Rating" class="error-messages"></span>
+
+	</div>
+
+	<button type="submit" class="btn btn-primary"> Create </button>
+
+	<a asp-controller="Movie" asp-action="MultMovies" class="btn btn-secondary"> Movie List </a>
+
+</form>
+
+

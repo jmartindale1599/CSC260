@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\cParents.jpg" />
+    <None Include="wwwroot\Images\debbie.jpg" />
+    <None Include="wwwroot\Images\mCraft.png" />
+    <None Include="wwwroot\Images\spaceEng.jpg" />
+    <None Include="wwwroot\Images\ySim.png" />
+  </ItemGroup>
+
+</Project>
