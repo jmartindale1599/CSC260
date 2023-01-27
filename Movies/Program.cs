@@ -38,7 +38,7 @@ namespace Movies
                 
                 //pattern: "pizza{id}", 
                 
-                pattern: "pizza/{id?}", 
+                pattern: "pizza/{id?}/{name}", 
                 
                 //pattern: "*RAGE", 
 
@@ -51,6 +51,14 @@ namespace Movies
                 pattern: "home/colors/{*colors}", 
 
                 defaults: new { Controller = "Home", action = "Colors" });
+
+            app.MapControllerRoute(
+
+                name: "Catchall",
+
+                pattern: "{*anything}",
+
+                defaults: new { controller = "Home", action = "error" });
 
             app.Run();
         }

@@ -94,6 +94,12 @@ namespace Movies.Controllers{
 
 		public IActionResult Create(Movie m){
 
+            if(m.Title == "The Room"){ // custom validation
+
+                ModelState.AddModelError("CustomError", "Shitty movie not gonna add");
+            
+            }
+
             if(ModelState.IsValid) { 
 
                 MovieList.Add(m); // adds movie to list aparently 

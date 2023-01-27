@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleWebsite", "SimpleWebs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Madlib", "Madlib\Madlib.csproj", "{F8B43995-6CCD-4EBA-A2DB-BDBF607B3887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGameLibrary", "VideoGameLibrary\VideoGameLibrary.csproj", "{44FBA511-DC8B-43A8-BE73-81D0EE676A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoGameLibrary", "VideoGameLibrary\VideoGameLibrary.csproj", "{44FBA511-DC8B-43A8-BE73-81D0EE676A1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Routing", "Routing\Routing.csproj", "{3B6F5C23-45A9-4994-8CBA-032E1B50AE71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{44FBA511-DC8B-43A8-BE73-81D0EE676A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44FBA511-DC8B-43A8-BE73-81D0EE676A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44FBA511-DC8B-43A8-BE73-81D0EE676A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6F5C23-45A9-4994-8CBA-032E1B50AE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6F5C23-45A9-4994-8CBA-032E1B50AE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6F5C23-45A9-4994-8CBA-032E1B50AE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6F5C23-45A9-4994-8CBA-032E1B50AE71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

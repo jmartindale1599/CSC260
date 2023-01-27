@@ -2,7 +2,12 @@
 
 using System.ComponentModel.DataAnnotations;
 
+using Movies.Validators;
+
 namespace Movies.Models{
+
+    [atezAttribute]
+    
     public class Movie{
 
         private static int nextId = 0;
